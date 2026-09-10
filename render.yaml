@@ -3,6 +3,7 @@ services:
     name: ceet-bot
     runtime: docker
     plan: free
+    region: virginia
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /healthz.php
@@ -11,13 +12,17 @@ services:
         fromDatabase:
           name: ceet-bot-db
           property: connectionString
+
       - key: APP_SECRET
         generateValue: true
+
       - key: SETUP_KEY
         sync: false
+
       - key: PORT
         value: "10000"
 
 databases:
   - name: ceet-bot-db
     plan: free
+    region: virginia
