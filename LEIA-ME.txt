@@ -1,0 +1,17 @@
+CEET BOT - PÁGINAS DE PRIVACIDADE
+
+1. Envie privacidade.php e exclusao-dados.php para a RAIZ do repositório:
+   CarolinaPassoni/CEET-Bot-no-Render
+
+2. Aguarde o Render fazer o Auto Deploy.
+
+3. Depois teste:
+   https://ceet-bot.onrender.com/privacidade.php
+   https://ceet-bot.onrender.com/exclusao-dados.php
+
+4. Na Meta, use:
+   URL da Política de Privacidade:
+   https://ceet-bot.onrender.com/privacidade.php
+
+   URL de exclusão/instruções de exclusão de dados:
+   https://ceet-bot.onrender.com/exclusao-dados.php
